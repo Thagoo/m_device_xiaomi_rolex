@@ -40,6 +40,8 @@ vendor.qcom.bluetooth.soc=smd
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.vendor.shutdown.waittime=500
+ro.qualcomm.bt.hci_transport=smd \
+persist.bluetooth.bluetooth_audio_hal.disabled=true
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
