@@ -16,6 +16,8 @@
 
 $(call inherit-product, vendor/xiaomi/rolex/rolex-vendor.mk)
 
+PRODUCT_SOONG_NAMESPACES := device/xiaomi/rolex
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 #DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
